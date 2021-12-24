@@ -584,8 +584,8 @@ let example = function(i) {
     Vy_eq = "2*x"
     dt = 0.1
   } else if (i==3) {
-    Vx_eq = "x+y"
-    Vy_eq = "x-y"
+    Vx_eq = "-x-2y"
+    Vy_eq = "3x-y^2"
     dt = 0.1
   }
   vf.update_Vx(Vx_eq)
