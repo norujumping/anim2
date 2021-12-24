@@ -580,7 +580,7 @@ let example = function(i) {
     Vy_eq = "2*x"
     dt = 0.4
   } else if (i==2) {
-    Vx_eq = "-2*y"
+    Vx_eq = "-2*y^2"
     Vy_eq = "2*x"
     dt = 0.1
   } else if (i==3) {
